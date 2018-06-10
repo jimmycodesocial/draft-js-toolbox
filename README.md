@@ -1,4 +1,4 @@
-# draft-js-toolbox
+# DraftJs Toolbox
 Useful goodies for DraftJS.
 
 ## Usage
