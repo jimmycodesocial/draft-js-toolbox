@@ -1,4 +1,4 @@
-import { Modifier, SelectionState, EditorState } from 'draft-js';
+import { SelectionState, EditorState, Modifier, AtomicBlockUtils } from 'draft-js';
 
 export const addBlock = (editorState, entityType, data = {}) => {
   const selectionState = editorState.getSelection();
