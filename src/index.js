@@ -1,6 +1,6 @@
 export {
   getCurrentBlock,
-  isCurrentEntityType,
+  isCurrentBlockType,
   isBlockWithEntityType
 } from './editor';
 

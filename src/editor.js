@@ -8,8 +8,8 @@ export const getCurrentBlock = (editorState) => {
   return block;
 };
 
-export const isCurrentEntityType = (editorState, entityType) => {
-  return getCurrentBlock(editorState).getType() === entityType;
+export const isCurrentBlockType = (editorState, blockType) => {
+  return getCurrentBlock(editorState).getType() === blockType;
 };
 
 export const isBlockWithEntityType = (editorState, block, entityType) => {
