@@ -1,6 +1,6 @@
 {
-  "name": "draft-js-toolbox",
-  "version": "0.5.3",
+  "name": "@jimmycode.com/draft-js-toolbox",
+  "version": "0.5.4",
   "description": "Useful goodies for DraftJS",
   "keywords": [
     "draft-js",

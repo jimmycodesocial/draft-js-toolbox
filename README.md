@@ -1,6 +1,12 @@
 # DraftJs Toolbox
 Useful goodies for DraftJS.
 
+## Installation
+
+```
+npm install @jimmycode/draft-js-toolbox
+```
+
 ## Usage
 This library contains two sets of functions:
 1. Utilities: that determine certain conditions on the editor's state.
