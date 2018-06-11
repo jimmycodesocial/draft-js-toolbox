@@ -14,6 +14,10 @@ This library contains two sets of functions:
 
 #### Utils
 
+```js
+import { getCurrentBlock, isCurrentBlockType, isBlockWithEntityType } from '@jimmycode/draft-js-toolbox';
+```
+
 | Function              | Params                          | Description                                                                  |
 |-----------------------|---------------------------------|------------------------------------------------------------------------------|
 | getCurrentBlock       | editorState                     | Returns the current block selected.                                          |
@@ -21,6 +25,10 @@ This library contains two sets of functions:
 | isBlockWithEntityType | editorState, block, entityType  | Checks if the current block is an atomic block with an specific entity type. |
 
 #### Modifiers
+
+```js
+import { addBlock, addAtomicBlock, removeBlock } from '@jimmycode/draft-js-toolbox';
+```
 
 | Function       | Params                        | Description                                                     |
 |----------------|-------------------------------|-----------------------------------------------------------------|
